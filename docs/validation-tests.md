@@ -23,6 +23,30 @@ The main objectives were to confirm:
 
 Authentication results were verified using Cisco ISE logs, switch authentication sessions, and Windows client network information.
 
+
+### Administrator Authentication Evidence
+
+The administrator successfully authenticated through IEEE 802.1X using Cisco ISE and Active Directory.
+
+Following authentication, the administrator was dynamically assigned to VLAN 10.
+
+**1. Administrator Client — Network Configuration**
+
+![Administrator Client](../screenshots/admin-client.png)
+
+**2. Cisco ISE — Authentication Logs**
+
+The Cisco ISE logs confirm successful administrator authentication.
+
+![Administrator ISE Logs](../screenshots/admin-ise-logs.png)
+
+**3. Cisco Switch — Authentication Session**
+
+The switch authentication session confirms the successful authorization of the administrator.
+
+![Administrator Switch Logs](../screenshots/admin-switch-logs.png)
+
+
 ## 3. Network Access Validation
 
 The following access restrictions were verified after successful authentication.
