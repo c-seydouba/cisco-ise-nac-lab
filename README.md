@@ -48,6 +48,13 @@ Cisco ISE acts as the centralized authentication and authorization server, while
 | 10 | Administrators | 10.0.10.0/24 |
 | 20 | Employees | 10.0.20.0/24 |
 
+### Network Topology
+
+The following diagram illustrates the network infrastructure
+used during the NAC implementation.
+
+![Network Topology](screenshots/network-topology.png)
+
 ### Authentication Workflow
 
 1. A user connects a device to the network.
