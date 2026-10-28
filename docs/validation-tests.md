@@ -47,6 +47,30 @@ The switch authentication session confirms the successful authorization of the a
 ![Administrator Switch Logs](../screenshots/admin-switch-logs.png)
 
 
+### Employee Access Validation
+
+The employee was successfully authenticated and assigned to VLAN 20.
+
+The connectivity tests confirmed that Internet access was allowed, while access to internal servers and network management equipment was restricted.
+
+![Employee Access Test](../screenshots/employee-access-test.png)
+
+### Network Sponsor Access Validation
+
+The network sponsor was authenticated and granted access to authorized network equipment and the Internet.
+
+Access to Active Directory and Cisco ISE was denied, demonstrating role-based access restrictions.
+
+![Network Sponsor Access Test](../screenshots/network-sponsor-access-test.png)
+
+### System Sponsor Access Validation
+
+The system sponsor was authenticated and authorized to access Active Directory and the Internet.
+
+Access to Cisco ISE and network equipment was restricted.
+
+![System Sponsor Access Test](../screenshots/system-sponsor-access-test.png)
+
 ## 3. Network Access Validation
 
 The following access restrictions were verified after successful authentication.
