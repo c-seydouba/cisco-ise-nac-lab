@@ -120,7 +120,7 @@ These limitations were documented as potential future improvements.
 |---|---|
 | [Network Architecture](docs/architecture.md) | Network components, VLAN segmentation, and authentication workflow |
 | [Validation Tests](docs/validation-tests.md) | Authentication results and access control verification |
-| Project Report | Complete academic project report (coming soon) |
+| [Project Report](docs/NAC_Project_Report.pdf) | Complete academic report, including implementation, configurations, and validation results |
 | Video Demonstration | Recorded authentication and authorization tests (coming soon) |
 
 ## Project Status
