@@ -130,7 +130,7 @@ These limitations were documented as potential future improvements.
 
 ## Project Status
 
-**Status:** Completed academic project — documentation and recorded demonstrations available.
+**Status:** Completed academic project — documentation and recorded demonstration available.
 
 The implementation and validation tests were performed using physical Cisco networking equipment and virtualized servers.
 
