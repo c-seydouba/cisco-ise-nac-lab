@@ -1,4 +1,3 @@
-
 # Network Access Control (NAC) Implementation with Cisco ISE
 
 ## Project Overview
@@ -50,8 +49,7 @@ Cisco ISE acts as the centralized authentication and authorization server, while
 
 ### Network Topology
 
-The following diagram illustrates the network infrastructure
-used during the NAC implementation.
+The following diagram illustrates the network infrastructure used during the NAC implementation.
 
 ![Network Topology](screenshots/network-topology.png)
 
@@ -92,6 +90,13 @@ The tests confirmed:
 
 The results demonstrated the effectiveness of centralized network access control in the implemented environment.
 
+## Video Demonstration
+
+A recorded demonstration of the Cisco ISE NAC implementation is available.
+
+The video begins with an overview of the Active Directory user accounts, DNS configuration, and DHCP scopes. It then presents the authentication and network access tests performed to validate the role-based access control policies.
+
+**[Watch the Project Demonstration (13 minutes)](https://youtu.be/SnhD6fu9IVA)**
 ## Implementation Challenges
 
 Several technical challenges were encountered during the project:
@@ -121,11 +126,11 @@ These limitations were documented as potential future improvements.
 | [Network Architecture](docs/architecture.md) | Network components, VLAN segmentation, and authentication workflow |
 | [Validation Tests](docs/validation-tests.md) | Authentication results and access control verification |
 | [Project Report](docs/NAC_Project_Report.pdf) | Complete academic report, including implementation, configurations, and validation results |
-| Video Demonstration | Recorded authentication and authorization tests (coming soon) |
+| [Video Demonstration](https://youtu.be/SnhD6fu9IVA) | Active Directory, DNS, DHCP, and network access control validation tests |
 
 ## Project Status
 
-**Status:** Completed academic project — documentation in progress.
+**Status:** Completed academic project — documentation and recorded demonstrations available.
 
 The implementation and validation tests were performed using physical Cisco networking equipment and virtualized servers.
 
@@ -148,4 +153,4 @@ This project was developed collaboratively by:
 
 This repository is intended for educational and technical documentation purposes.
 
-Sensitive authentication credentials and secrets must be removed from publicly shared configurations and documentation.
+Sensitive authentication credentials and secrets must be removed from publicly shared configurations, documentation, and demonstration videos.
